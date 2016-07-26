@@ -1,0 +1,3 @@
+It's decisions like this that got you on this island in the first place. You die of starvation.
+A. Play again (Main Menu)
+B. Quit

@@ -1,0 +1,6 @@
+You are going to need to eat sometime! Where do you look first?
+A. Try to catch some fish in the ocean 
+B. Look under rocks
+C. Yell loudly and hope something delicious comes running
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)

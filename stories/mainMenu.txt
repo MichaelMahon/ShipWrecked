@@ -1,0 +1,5 @@
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)

@@ -1,0 +1,6 @@
+You might be here for awhile. What will you use to build the shelter?
+A. A tree
+B. Palm leaves
+C. Parts from the shipwreck
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)

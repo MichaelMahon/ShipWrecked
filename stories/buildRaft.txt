@@ -1,0 +1,6 @@
+Smart! Its time to get off of this island. Choose your building material
+A. Bamboo
+B. Coconuts
+C. Parts from the shipwreck
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)
