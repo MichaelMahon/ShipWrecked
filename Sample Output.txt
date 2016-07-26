@@ -7,6 +7,23 @@ A. Search the beach for food and a source of water.
 B. Build a shelter
 C. Build a raft to float to safty
 D. Wait to die (quit)
+a
+
+You are going to need to eat sometime! Where do you look first?
+A. Try to catch some fish in the ocean 
+B. Look under rocks
+C. Yell loudly and hope something delicious comes running
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)
+a
+
+Great idea! Mahi Mahi for dinner!
+
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)
 b
 
 You might be here for awhile. What will you use to build the shelter?
@@ -15,12 +32,9 @@ B. Palm leaves
 C. Parts from the shipwreck
 D. Pick a new task (main menu)
 E. Give up and wait to die (quit)
-a
+b
 
 Good choice! You're tree shelter is strong and protects you.
-A. Play again (Main Menu)
-B. Quit
-a
 
 You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
 A. Search the beach for food and a source of water.
@@ -38,29 +52,6 @@ E. Give up and wait to die (quit)
 b
 
 What were you thinking? Really? A raft made of coconuts? You give up and throw the coconuts at your friends.
-A. Play again (Main Menu)
-B. Quit
-a
-
-You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
-A. Search the beach for food and a source of water.
-B. Build a shelter
-C. Build a raft to float to safty
-D. Wait to die (quit)
-a
-
-You are going to need to eat sometime! Where do you look first?
-A. Try to catch some fish in the ocean 
-B. Look under rocks
-C. Yell loudly and hope something delicious comes running
-D. Pick a new task (main menu)
-E. Give up and wait to die (quit)
-a
-
-Great idea! Mahi Mahi for dinner!
-A. Play again (Main Menu)
-B. Quit
-a
 
 You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
 A. Search the beach for food and a source of water.
@@ -78,9 +69,84 @@ E. Give up and wait to die (quit)
 c
 
 It's decisions like this that got you on this island in the first place. You die of starvation.
-A. Play again (Main Menu)
-B. Quit
+
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)
+d
+Welcome to ShipWrecked 
+Choose what you would do in each senerio by selecting the letter for your selection
+
+
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)
 a
+
+You are going to need to eat sometime! Where do you look first?
+A. Try to catch some fish in the ocean 
+B. Look under rocks
+C. Yell loudly and hope something delicious comes running
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)
+a
+
+Great idea! Mahi Mahi for dinner!
+
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)
+b
+
+You might be here for awhile. What will you use to build the shelter?
+A. A tree
+B. Palm leaves
+C. Parts from the shipwreck
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)
+b
+
+Good choice! You're tree shelter is strong and protects you.
+
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)
+c
+
+Smart! Its time to get off of this island. Choose your building material
+A. Bamboo
+B. Coconuts
+C. Parts from the shipwreck
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)
+b
+
+What were you thinking? Really? A raft made of coconuts? You give up and throw the coconuts at your friends.
+
+You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
+A. Search the beach for food and a source of water.
+B. Build a shelter
+C. Build a raft to float to safty
+D. Wait to die (quit)
+a
+
+You are going to need to eat sometime! Where do you look first?
+A. Try to catch some fish in the ocean 
+B. Look under rocks
+C. Yell loudly and hope something delicious comes running
+D. Pick a new task (main menu)
+E. Give up and wait to die (quit)
+c
+
+It's decisions like this that got you on this island in the first place. You die of starvation.
 
 You and three friends find yourselves stranded on a deserted island after your boat crashes.\nWhat do you do first?
 A. Search the beach for food and a source of water.
