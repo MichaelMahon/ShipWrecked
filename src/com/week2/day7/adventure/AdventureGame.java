@@ -123,134 +123,41 @@ public class AdventureGame
 
 	private void boatScrapRaft() throws IOException
 	{
-		String[] boatScrapRaftOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner boatScrapRaftReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\oldBoatRaft.txt"));
-		Scanner boatScrapRaftScanner = new Scanner(System.in);
 		
 		String desc = boatScrapRaftReader.nextLine();
-		boatScrapRaftOptions[MAIN] = boatScrapRaftReader.nextLine();
-		boatScrapRaftOptions[QUIT] = boatScrapRaftReader.nextLine();
-		
+
 		boatScrapRaftReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < boatScrapRaftOptions.length; i++)
-				System.out.println(boatScrapRaftOptions[i]);
 
-			selection = boatScrapRaftScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		boatScrapRaftScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 		
 	}
 	private void coconutRaft() throws IOException
 	{
-		String[] coconutRaftOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner coconutRaftReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\coconutRaft.txt"));
-		Scanner coconutRaftScanner = new Scanner(System.in);
 		
 		String desc = coconutRaftReader.nextLine();
-		coconutRaftOptions[MAIN] = coconutRaftReader.nextLine();
-		coconutRaftOptions[QUIT] = coconutRaftReader.nextLine();
-		
+
 		coconutRaftReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < coconutRaftOptions.length; i++)
-				System.out.println(coconutRaftOptions[i]);
 
-			selection = coconutRaftScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		coconutRaftScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 		
 	}
 	private void bambooRaft() throws IOException
 	{
-		String[] bambooRaftOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner bambooRaftReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\bambooRaft.txt"));
-		Scanner bambooRaftScanner = new Scanner(System.in);
 		
 		String desc = bambooRaftReader.nextLine();
-		bambooRaftOptions[MAIN] = bambooRaftReader.nextLine();
-		bambooRaftOptions[QUIT] = bambooRaftReader.nextLine();
-		
+
 		bambooRaftReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < bambooRaftOptions.length; i++)
-				System.out.println(bambooRaftOptions[i]);
 
-			selection = bambooRaftScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		bambooRaftScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 	}
 
 	
@@ -312,134 +219,42 @@ public class AdventureGame
 
 	private void boatScrapShelter() throws IOException
 	{
-		String[] boatScrapShelterOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner boatScrapShelterReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\boatScrapShelter.txt"));
-		Scanner boatScrapShelterScanner = new Scanner(System.in);
 		
 		String desc = boatScrapShelterReader.nextLine();
-		boatScrapShelterOptions[MAIN] = boatScrapShelterReader.nextLine();
-		boatScrapShelterOptions[QUIT] = boatScrapShelterReader.nextLine();
-		
+
 		boatScrapShelterReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < boatScrapShelterOptions.length; i++)
-				System.out.println(boatScrapShelterOptions[i]);
 
-			selection = boatScrapShelterScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		boatScrapShelterScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 		
 	}
 	private void leavesShelter() throws IOException
 	{
-		String[] leavesShelterOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner leavesShelterReader = new Scanner(
-				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\leavesShelter.txt"));
-		Scanner leavesShelterScanner = new Scanner(System.in);
+				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\treeShelter.txt"));
 		
 		String desc = leavesShelterReader.nextLine();
-		leavesShelterOptions[MAIN] = leavesShelterReader.nextLine();
-		leavesShelterOptions[QUIT] = leavesShelterReader.nextLine();
-		
+
 		leavesShelterReader.close();
+
+		System.out.println("\n" + desc);
+		mainMenu();
 		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < leavesShelterOptions.length; i++)
-				System.out.println(leavesShelterOptions[i]);
-
-			selection = leavesShelterScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		leavesShelterScanner.close();
 		
 	}
 	private void treeShelter() throws IOException
 	{
-		String[] treeShelterOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner treeShelterReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\treeShelter.txt"));
-		Scanner treeShelterScanner = new Scanner(System.in);
 		
 		String desc = treeShelterReader.nextLine();
-		treeShelterOptions[MAIN] = treeShelterReader.nextLine();
-		treeShelterOptions[QUIT] = treeShelterReader.nextLine();
-		
+
 		treeShelterReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < treeShelterOptions.length; i++)
-				System.out.println(treeShelterOptions[i]);
 
-			selection = treeShelterScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		treeShelterScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 		
 	}
 
@@ -503,135 +318,41 @@ public class AdventureGame
 
 	private void yellSearch() throws IOException
 	{
-		String[] yellSearchOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner yellSearchReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\yellSearch.txt"));
-		Scanner yellSearchScanner = new Scanner(System.in);
 		
 		String desc = yellSearchReader.nextLine();
-		yellSearchOptions[MAIN] = yellSearchReader.nextLine();
-		yellSearchOptions[QUIT] = yellSearchReader.nextLine();
-		
+
 		yellSearchReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < yellSearchOptions.length; i++)
-				System.out.println(yellSearchOptions[i]);
 
-			selection = yellSearchScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		yellSearchScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 		
 	}
 	private void rockSearch() throws IOException
 	{
-		String[] rockSearchOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner rockSearchReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\rockSearch.txt"));
-		Scanner rockSearchScanner = new Scanner(System.in);
 		
 		String desc = rockSearchReader.nextLine();
-		rockSearchOptions[MAIN] = rockSearchReader.nextLine();
-		rockSearchOptions[QUIT] = rockSearchReader.nextLine();
-		
+
 		rockSearchReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < rockSearchOptions.length; i++)
-				System.out.println(rockSearchOptions[i]);
 
-			selection = rockSearchScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		rockSearchScanner.close();
+		System.out.println("\n" + desc);
+		mainMenu();
 		
 	}
 	private void fishSearch() throws IOException
 	{
-		String[] fishSearchOptions = new String[2];
-		boolean validSelection = true;
-
-		int MAIN = 0;
-		int QUIT = 1;
-		
-		String selection = "";
-
 		Scanner fishSearchReader = new Scanner(
 				Paths.get("C:\\Users\\admin\\workspace\\Day7Assignment1\\stories\\fishSearch.txt"));
-		Scanner fishSearchScanner = new Scanner(System.in);
 		
 		String desc = fishSearchReader.nextLine();
-		fishSearchOptions[MAIN] = fishSearchReader.nextLine();
-		fishSearchOptions[QUIT] = fishSearchReader.nextLine();
-		
+
 		fishSearchReader.close();
-		
-		do
-		{
-			System.out.println("\n" + desc);
-			for (int i = 0; i < fishSearchOptions.length; i++)
-				System.out.println(fishSearchOptions[i]);
 
-			selection = fishSearchScanner.nextLine().toUpperCase();
-
-			switch (selection)
-			{
-			case "A":
-				mainMenu();
-				break;
-			case "B":
-				break;
-			default:
-				validSelection = false;
-			}
-
-		} while (!validSelection);
-		
-		fishSearchScanner.close();
-		
+		System.out.println("\n" + desc);
+		mainMenu();
 	}
 
 	private boolean noValidAnswer(String selection)
